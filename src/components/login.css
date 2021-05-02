@@ -1,0 +1,40 @@
+.login {
+    
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.loginlogo{
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  
+    box-shadow:  0 1px 3px rgba(0, 0, 0, 0.12), 0 1px;
+    background-color: white;
+}
+
+.loginlogo>img{
+    
+    display: flex;
+    width: 140px;
+    height: 140px;
+    padding-left: 35px;
+    object-fit: contain;
+
+}
+.loginlogo>button{
+width: 250px;
+height: 50px;
+border-radius: 12px;
+color: white;
+background-color: #3b5998;
+text-transform: uppercase;
+font-size: large;
+border-color:  #3b5998 ;
+}
+
+.loginlogo>button:hover {
+background-color: #3356a0;
+}
